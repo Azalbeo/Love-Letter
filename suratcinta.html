@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamu</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+    <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju-2.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="Text1">
+        <header class="w3-container w3-xlarge">
+            <p class="text2">Hai, I have a crush on you..</p>
+        </header>
+    </div>
+
+    <div class="w3-container w3-text-grey" id="jeans">
+        <p class="text2">Be mine?</p>
+        <img src="/assests/css/kisspenguin.png" alt="">
+        <br>
+        <br>
+        <button class="btn12" onclick="MyCustomFunction()">Yes</button>
+
+        <script>
+            function MyCustomFunction(){
+                alert("Kirim text ini ke WA aku ya..");
+                location.assign("htpps://wa.me/?text=Aku%20mau%20jadi%20Pacar%20kamu!%20><");
+            }
+        </script>
+
+        <button class="btn12" anmouseover="gak(this)">No</button>
+    </div>
+</div>
+<script>
+    function gak(ini){
+        ini.style.position = "absolute"
+        ini.style.left =`${Math.floor(Math.random() * 90)}%`;
+        ini.style.top =`${Math.floor(Math.random() * 90)}%`;
+    }
+</script>
+<script src="/assests/css/js/main.js"></script>
+</body>
+</html>
